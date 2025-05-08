@@ -1,3 +1,9 @@
+import Authlayout from "./(auth)/layout";
+
 export default function Home() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      <Authlayout />
+    </div>
+  );
 }
