@@ -11,7 +11,10 @@ export const LoginSection = () => {
         </div>
         <div className="w-full h-[160px] px-6 pb-6 flex-col items-start gap-3 flex">
           <div className="grid w-full max-w-sm items-center gap-1.5">
-            <Label htmlFor="email" className="text-[14px] font-medium">
+            <Label
+              htmlFor="email"
+              className="text-[14px] font-medium text-black"
+            >
               Email
             </Label>
             <Input
@@ -22,7 +25,10 @@ export const LoginSection = () => {
             />
           </div>
           <div className="grid w-full max-w-sm items-center gap-1.5 ">
-            <Label htmlFor="Password" className="text-[14px] font-medium">
+            <Label
+              htmlFor="Password"
+              className="text-[14px] font-medium text-black"
+            >
               Password
             </Label>
             <Input
