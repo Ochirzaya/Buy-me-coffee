@@ -1,3 +1,10 @@
+import { Profilesix } from "./(createprofile)/component/Profilesix";
+
 export default function Home() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      {" "}
+      <Profilesix />
+    </div>
+  );
 }
