@@ -9,7 +9,7 @@ export const Profilesix = () => {
   return (
     <div className="w-screen h-screen bg-white items-center  flex flex-col">
       <div className="w-screen h-14 flex px-4 py-2 justify-center items-center ">
-        <div className=" flex w-[1280px] h-10 justify-between items-center">
+        <div className=" flex w-full h-10 justify-between items-center px-4 py-2">
           <img src="/Logo.png" alt="logo" height={20} width={147} />
           <Button className="w-[83px] h-10 flex items-center justify-center gap-3 px-4 py-2 rounded-md bg-[#F4F4F5]">
             <p className="text-[#18181B] font-medium text-[14px]">Log out</p>
