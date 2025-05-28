@@ -58,7 +58,7 @@ export const ProfileThree = () => {
                 placeholder="XXXX-XXXX-XXXX-XXXX"
               />
             </div>
-            <div className="w-full h-[82px] flex items-center gap-4">
+            <div className="w-full h-[82px] flex items-start gap-4">
               <div className="w-[159px] h-[58px] flex flex-col items-start gap-2">
                 <label className="text-[14px] font-medium text-[#09090B]">
                   Expires
