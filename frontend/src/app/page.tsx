@@ -1,3 +1,9 @@
+import Profile from "./(createprofile)/page";
+
 export default function Home() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      <Profile />
+    </div>
+  );
 }
